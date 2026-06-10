@@ -1,4 +1,4 @@
-const affiliateUrl = '';
+const affiliateUrl = 'https://trk.eliteplayhub.com/u?p=1';
 
 const cta = document.querySelector('#mainCta');
 const heroVideo = document.querySelector('.hero-video');
