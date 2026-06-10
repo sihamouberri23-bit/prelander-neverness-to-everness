@@ -1,39 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Neverness to Everness</title>
-  <meta name="description" content="Enter the cyberpunk anime world of Neverness to Everness.">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NTE | Neverness to Everness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
-  <header class="site-header">
-    <img class="header-logo" src="logos/logo%20(1).png" alt="Neverness to Everness">
-  </header>
+  <main class="prelander">
+    <div class="background"></div>
+    <div class="overlay"></div>
 
-  <main class="hero">
-<video class="hero-video" autoplay muted loop playsinline preload="auto">     
-  <source src="videos/vedio-Neverness-to-Everness-1.mp4" type="video/mp4">
-</video>
-    <div class="hero-shade"></div>
-    <div class="scanline" aria-hidden="true"></div>
+    <header class="topbar" aria-label="NTE header">
+      <img class="logo header-logo" src="logos/logo%20(1).png" alt="Neverness to Everness">
+      <span class="platform">Windows PC Edition</span>
+    </header>
 
-    <section class="hero-content">
+    <section class="hero" aria-label="Neverness to Everness prelander">
       <div class="hero-copy">
-        <p class="tag">Cyberpunk anime open-world RPG</p>
-        <h1>Neon anomalies await</h1>
-        <p class="description">Explore a futuristic anime world, meet stylish characters, and uncover supernatural secrets in Neverness to Everness.</p>
-        <a class="cta" href="https://trk.eliteplayhub.com/u?p=1" id="mainCta">Claim Access</a>
-        <p class="platform-note">Windows Only</p>
+        <p class="eyebrow">Official PC Launch</p>
+        <h1>Your city just turned supernatural</h1>
+        <p class="description">
+          Drive into Hethereau and chase the anomalies hiding after midnight.
+        </p>
+        <div class="actions">
+          <a class="cta" href="https://nte.perfectworld.com/en/main.html" target="_blank" rel="noopener">
+            Enter the Night
+            <span aria-hidden="true">&rarr;</span>
+          </a>
+          <span class="note">Optimized landing experience for Windows players</span>
+        </div>
       </div>
 
-      <div class="hero-preview" aria-label="Neverness to Everness rotating preview">
-        <img id="rotatingImage" src="images/image-Neverness-to-Everness-1.jpeg" alt="Neverness to Everness preview">
+      <div class="video-card" aria-label="Gameplay trailer">
+        <video src="videos/video-neverness-to-everness.mp4" autoplay muted loop playsinline poster="images/image-neverness-to-everness.jpeg"></video>
       </div>
     </section>
   </main>
 
-  <script src="script.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
